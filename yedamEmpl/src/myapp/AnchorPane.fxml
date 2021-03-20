@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+fxml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="180.0" prefWidth="281.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/15.0.1">
+<AnchorPane prefHeight="180.0" prefWidth="281.0" xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx">
    <children>
       <Label layoutX="33.0" layoutY="62.0" text="아이디" />
       <Label layoutX="22.0" layoutY="96.0" prefHeight="17.0" prefWidth="59.0" text="패스워드" />
