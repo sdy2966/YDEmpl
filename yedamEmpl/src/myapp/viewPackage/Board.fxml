@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="526.0" prefWidth="528.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="myapp.viewPackage.BoardController">
+	<TableView fx:id="tableView" layoutX="50.0" layoutY="10.0" prefHeight="100.0" prefWidth="412.0">
+			<columns>
+				<TableColumn prefWidth="72.0" text="게시글번호" />
+				<TableColumn prefWidth="83.0" text="게시일자" />
+				<TableColumn prefWidth="104.0" text="제목" /> 
+			</columns>
+		</TableView>
+   <Label layoutX="32.0" layoutY="238.0" text="게시글번호" />
+   <TextField fx:id="boardNo" layoutX="101.0" layoutY="234.0" prefHeight="25.0" prefWidth="107.0" />
+   <TextField fx:id="title" layoutX="100.0" layoutY="203.0" prefHeight="25.0" prefWidth="390.0" />
+   <Label layoutX="31.0" layoutY="207.0" text="제목" />
+   <ComboBox fx:id="publicity" layoutX="101.0" layoutY="267.0" prefHeight="25.0" prefWidth="107.0" />
+   <Label layoutX="29.0" layoutY="271.0" text="공개/비공개" />
+   <Label layoutX="31.0" layoutY="300.0" text="내용" />
+   <DatePicker fx:id="exitDate" layoutX="334.0" layoutY="236.0" prefHeight="25.0" prefWidth="156.0" />
+   <Label layoutX="274.0" layoutY="237.0" text="게시종료" />
+   <TextArea fx:id="contents" layoutX="33.0" layoutY="327.0" prefHeight="106.0" prefWidth="460.0" />
+   <Button fx:id="updateBtn" layoutX="185.0" layoutY="453.0" mnemonicParsing="false" onAction="#updateBtnAction" text="수정" />
+   <Button fx:id="deleteBtn" layoutX="244.0" layoutY="453.0" mnemonicParsing="false" text="삭제" />
+   <Button fx:id="addBtn" layoutX="302.0" layoutY="453.0" mnemonicParsing="false" onAction="#exitBtnAction" text="추가" />
+   <Button fx:id="ntBtn" layoutX="445.0" layoutY="453.0" mnemonicParsing="false" onAction="#nextBtnAction" text="Daum" />
+   <Button fx:id="bfBtn" layoutX="30.0" layoutY="453.0" mnemonicParsing="false" onAction="#beforeBtnAction" text="Ejuun" />
+</AnchorPane>
