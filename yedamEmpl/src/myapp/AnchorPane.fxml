@@ -13,6 +13,6 @@
       <TextField layoutX="92.0" layoutY="96.0" />
       <TextField layoutX="92.0" layoutY="58.0" />
       <Button layoutX="78.0" layoutY="138.0" mnemonicParsing="false" text="로그인" />
-      <Button layoutX="175.0" layoutY="138.0" mnemonicParsing="false" text="로그인" />
+      <Button layoutX="175.0" layoutY="138.0" mnemonicParsing="false" text="로그인"  />
    </children>
 </AnchorPane>
